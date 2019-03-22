@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One&subset=latin-ext');
+body {
+  background-color: #ff4000;
+  color: yellow;
+  font-family: "Fjalla", serif;
+}
+
+
+h1{
+
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: jusitfy;
+  letter-spacing: 5px;
+  font-family: "Anton", san-sans-serif;
+}
+
+h2{
+  font-size: 15px;
+  color: green;
+  text-transform: capitalize;
+  text-align: jusitfy;
+  letter-spacing: 5px;
+  font-family: "Anton", san-sans-serif;
+}
+p{
+  text-align: center;
+    font-weight: normal;
+  font-style: italic;
+}
+li {
+  display: grid;
+}
+
+li:hover {
+  background-color: gray;
+}
+
+img {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+.birds {
+  color: blue;
+  font-style:italic;
+  margin: 30px;
+}
+
+.mammels {
+color: red;
+font-weight: bold;
+padding-left: 30px;
+padding-right: 30px
+}
+
+.fish {
+color: orange;
+text-decoration: underline;
+padding: 30px;
+margin-top: 40px;
+
+}
+
+#FirstList{
+background-color: pink;
+}
